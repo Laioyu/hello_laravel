@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## laravel 学习项目，使用到了laradock
+
+1. 在开发环境下，注意本机的PHP版本和laradock中的一样
+否则composer安装依赖的时候会出现版本问题
+
+2. laradock使用git submodule 管理，有任何改变应推送到laradock 的fork 仓库
+
